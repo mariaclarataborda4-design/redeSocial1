@@ -56,12 +56,12 @@ body {
 .username {
   font-weight: 600;
   font-size: 14px;
-  color: #ffffff;
+  color: #e61616;
 }
 
 .more-options {
   cursor: pointer;
-  color: #ffffff;
+  color: #eb1313;
 }
 
 /* Mídia / Foto */
@@ -93,7 +93,7 @@ body {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  border: 2px solid #fffbfb;
+  border: 2px solid #0f0707;
   object-fit: cover;
 }
 
@@ -102,7 +102,7 @@ body {
   bottom: -2px;
   right: -2px;
   background: #561296;
-  color: #ffffff;
+  color: #160505;
   font-size: 10px;
   font-weight: bold;
   width: 16px;
@@ -111,7 +111,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 2px solid #ffffff;
+  border: 2px solid #161010;
 }
 
 /* Ações (Curtir, Comentar, Repostar, Direct, Salvar) */
@@ -134,7 +134,7 @@ body {
   gap: 5px;
   font-size: 13px;
   font-weight: 600;
-  color: #ffffff;
+  color: #130a0a;
   cursor: pointer;
   background: none;
   border: none;
@@ -158,22 +158,22 @@ body {
 }
 
 .action-btn.bookmarked svg {
-  fill: #ffffff;
+  fill: #161111;
 }
 
 /* Texto de Curtidas */
 .post-details {
   padding: 0 16px 12px 16px;
   font-size: 13px;
-  color: #e0e5ec;
+  color: #101318;
 }
 
 .likes {
-  color: #e8ebef;
+  color: #020303;
 }
 
 .likes strong {
-  color: #e9eef6;
+  color: #020303;
 }
 
 /* Barra de Navegação Inferior */
@@ -187,7 +187,7 @@ body {
 }
 
 .nav-item {
-  color: #e5e8ee;
+  color: #2944dd;
   cursor: pointer;
 }
 
