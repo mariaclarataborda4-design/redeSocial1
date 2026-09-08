@@ -25,7 +25,7 @@ body {
 }
 
 .phone-screen {
-  background: #ede3e3;
+  background: #000000;
   border-radius: 32px;
   overflow: hidden;
   display: flex;
@@ -56,12 +56,12 @@ body {
 .username {
   font-weight: 600;
   font-size: 14px;
-  color: #0e0c0c;
+  color: #ffffff;
 }
 
 .more-options {
   cursor: pointer;
-  color: #0e1012;
+  color: #ffffff;
 }
 
 /* Mídia / Foto */
@@ -69,7 +69,8 @@ body {
   position: relative;
   width: 100%;
   aspect-ratio: 4 / 5;
-  background-color: #eee;
+  background-color: #222;
+  cursor: pointer;
 }
 
 .post-media img.main-img {
@@ -101,7 +102,7 @@ body {
   bottom: -2px;
   right: -2px;
   background: #561296;
-  color: rgb(18, 5, 5);
+  color: #ffffff;
   font-size: 10px;
   font-weight: bold;
   width: 16px;
@@ -147,6 +148,17 @@ body {
   stroke-width: 2;
   stroke-linecap: round;
   stroke-linejoin: round;
+  transition: transform 0.15s ease, fill 0.15s ease, stroke 0.15s ease;
+}
+
+/* Estado de Curtido e Salvo */
+.action-btn.liked svg {
+  fill: #e53935;
+  stroke: #e53935;
+}
+
+.action-btn.bookmarked svg {
+  fill: #ffffff;
 }
 
 /* Texto de Curtidas */
@@ -170,7 +182,7 @@ body {
   justify-content: space-around;
   align-items: center;
   padding: 12px 0 16px 0;
-  border-top: 1px solid #110f0f;
+  border-top: 1px solid #222222;
   background: #131010;
 }
 
@@ -186,4 +198,3 @@ body {
   stroke: currentColor;
   stroke-width: 2;
 }
-
